@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans:600&display=swap');
-/* body {
-    font-family: Arial, sans-serif;
-    background-color: #F9F9F9;
-    margin: 0; 
-  } */
+
 .bg{
   background-image: url("clg.avif");
   background-repeat: no-repeat;
@@ -14,23 +10,23 @@
 }
 .ig{
   display: block;
-  max-width: 100%;
-  height: 90px;
-  margin-top: 6px;
+max-width: 100%;
+height: 115px;
+margin-top: 6px;
 }
 .flex{
   display: flex;
   overflow: hidden;
-  height: 20vh;
+  height: 25vh;
   justify-content: center;
   border:1px solid red;
   background-color:white;
   justify-content: space-between;
   padding: 0px 140px;
-  margin-top: -4vh;
+  padding-top: 4px;
 }
 .ig2{
-  height: 15vh;
+  height: 20vh;
 }
 /* .bg{
     margin-top: -10vh;
@@ -176,7 +172,7 @@ label #btn,label #cancel{
   color: aliceblue;
   border-radius: 5px;
   border: 1px solid #262626;
-  margin: 15px 30px;
+  margin: 45px 30px;
   font-size: 29px;
   background: #262626;
   height: 45px;
@@ -203,7 +199,26 @@ label #cancel{
   visibility: visible;
 }
 @media(max-width : 860px){
+  .flex{
+   padding: 0px 45px;
+height: 15vh;
+  }
+  .bg h1{
+    margin-top: 36px;
+  }
+  .ig{
+    display: block;
+max-width: 100%;
+height: 115px;
+margin-top: 12px;
+  }
+  .ig2{
+height: 9vh;
+width: 47%;
+margin-top: 4px;
+  }
   .sidebar{
+    display: none;
     height: auto;
     width: 70px;
     left: 0;
@@ -235,3 +250,54 @@ label #cancel{
 }
 
 
+@media(max-width : 700px){
+  .bg{
+  background-image: url("drops-4968242.jpg");
+  }
+  .flex{
+  padding: 0px 32px;
+height: 14vh;
+  }
+  .ig{
+    display: block;
+max-width: 92%;
+height: 95px;
+margin-top: 17px;
+  }
+  .ig2{
+height: 7vh;
+width: 52%;
+margin-top: 11px;
+
+  }
+  .sidebar{
+    display: none;
+    height: auto;
+    width: 70px;
+    left: 0;
+    margin: 100px 0;
+  }
+  header,#btn,#cancel{
+    display: none;
+  }
+  span{
+    position: absolute;
+    margin-left: 23px;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .sidebar a{
+    height: 60px;
+  }
+  .sidebar a i{
+    margin-left: -10px;
+  }
+  a:hover {
+    width: 200px;
+    background: inherit;
+  }
+  .sidebar a:hover span{
+    opacity: 1;
+    visibility: visible;
+  }
+}
