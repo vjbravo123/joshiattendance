@@ -15,6 +15,7 @@ height: 115px;
 margin-top: 6px;
 }
 .flex{
+
   display: flex;
   overflow: hidden;
   height: 25vh;
@@ -24,6 +25,7 @@ margin-top: 6px;
   justify-content: space-between;
   padding: 0px 140px;
   padding-top: 4px;
+  margin-top: -24px;
 }
 .ig2{
   height: 20vh;
@@ -200,6 +202,7 @@ label #cancel{
 }
 @media(max-width : 860px){
   .flex{
+    margin-top: -24px;
    padding: 0px 45px;
 height: 15vh;
   }
@@ -255,6 +258,7 @@ margin-top: 4px;
   background-image: url("drops-4968242.jpg");
   }
   .flex{
+    margin-top: -23px;
   padding: 0px 32px;
 height: 14vh;
   }

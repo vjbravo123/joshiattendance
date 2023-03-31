@@ -52,7 +52,7 @@ export const Loginpage = (props) => {
           <div className="btn">
             {/* <input type="submit" className='button' value={"LOGIN"} /> */}
            <button type='submit' className='button'>login</button>
-            <div className='button'>Sign-Up</div>
+            {/* <div className='button'>Sign-Up</div> */}
           </div>
         </form>
       </div>

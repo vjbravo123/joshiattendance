@@ -7,6 +7,10 @@
         width: 100vw;
     }
 }
+*{
+  margin:0;
+padding:0;
+}
 
 
 .head {
@@ -77,23 +81,29 @@
 
 .btn {
     display: flex;
-    /* margin-top: 5px;
-    margin-left: 115px; */
+margin-top: 5px;
+justify-content: center;
+align-content: center;
+align-items: center;
+  margin-left: -30px;
 }
 
 .button {
-    background-color: #16a085;
-    height: 30px;
-    width: 100px;
-    margin-top: 10px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    margin-left: 10px;
-    color: white;
-    border-top: 1px solid white;
-    border-left: 2px solid white;
+  display: flex;
+justify-content: center;
+align-content: center;
+  text-align: center;
+background-color: #16a085;
+height: 30px;
+width: 100px;
+margin-top: 10px;
+
+
+margin-left: 30px;
+color: white;
+border-top: 1px solid white;
+border-left: 2px solid white;
+margin-right: 10px;
 
 }
 
@@ -112,6 +122,7 @@
 }
 
 .bc {
+
     background-image: url("../images/beach-1751455.jpg");
     display: flex;
     justify-content: center;
@@ -126,4 +137,115 @@
     height: 87vh;
     background-color: darkblue;
     color: lightblue;
+}
+
+@media(max-width : 750px){
+.input input{
+width: 285px;
+height: 35px;
+color: black;
+margin: 35px;
+border-radius: 5px;
+}
+
+  .todoadd{
+    box-shadow: 33px -16px rgb(216, 228, 228);
+height: 29vh;
+display: grid;
+justify-content: center;
+align-items: center;
+align-content: center;
+flex-direction: column;
+width: 60vw;
+border: 2px solid azure;
+border-radius: 3px;
+    overflow: hidden;
+  }
+
+  .button{
+    align-items: center;
+    background-color: #16a085;
+height: 40px;
+width: 108px;
+margin-top: 10px;
+margin-left: 30px;
+color: white;
+border-top: 1px solid white;
+border-left: 2px solid white;
+margin-right: 10px;
+border-radius: 22px;
+  }
+  .bc{
+    background-image: url("../images/building-4884852.jpg");
+  }
+}
+@media screen and (min-width:750px) and (max-width:900px){
+    .todoadd{
+    box-shadow: 33px -16px rgb(216, 228, 228);
+height: 25vh;
+display: grid;
+justify-content: center;
+align-items: center;
+align-content: center;
+flex-direction: column;
+width: 45vw;
+border: 2px solid azure;
+border-radius: 3px;
+    overflow: hidden;
+  }
+  .input input {
+  width: 250px;
+  height: 40px;
+  color: black;
+  margin: 25px;
+  border-radius: 10px;
+  }
+    .button {
+  align-content: center;
+  text-align: center;
+  background-color: #16a085;
+  height: 35px;
+  width: 110px;
+  margin-top: 10px;
+  margin-left: 30px;
+  color: white;
+  border-top: 1px solid white;
+  border-left: 2px solid white;
+  margin-right: 10px;
+}
+}
+@media screen and (min-width:900px) and (max-width:1100px){
+  .todoadd{
+    box-shadow: 33px -16px rgb(216, 228, 228);
+height: 25vh;
+display: grid;
+justify-content: center;
+align-items: center;
+align-content: center;
+flex-direction: column;
+width: 45vw;
+border: 2px solid azure;
+border-radius: 3px;
+    overflow: hidden;
+  }
+  .input input {
+  width: 350px;
+  height: 40px;
+  color: black;
+  margin: 25px;
+  border-radius: 10px;
+  }
+  .button {
+  align-content: center;
+  text-align: center;
+  background-color: #16a085;
+  height: 35px;
+  width: 110px;
+  margin-top: 10px;
+  margin-left: 30px;
+  color: white;
+  border-top: 1px solid white;
+  border-left: 2px solid white;
+  margin-right: 10px;
+}
 }
