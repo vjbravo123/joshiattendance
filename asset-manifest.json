@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/joshiattendance/static/css/main.be128775.css",
+    "main.js": "/joshiattendance/static/js/main.6ee1a481.js",
+    "static/js/787.d06df960.chunk.js": "/joshiattendance/static/js/787.d06df960.chunk.js",
+    "static/media/pexels-felix-mittermeier-956981.jpg": "/joshiattendance/static/media/pexels-felix-mittermeier-956981.86c86a1a3cf162970073.jpg",
+    "static/media/sunrise-1634197.jpg": "/joshiattendance/static/media/sunrise-1634197.2692a42e2c282c55ee04.jpg",
+    "static/media/drops-4968242.jpg": "/joshiattendance/static/media/drops-4968242.87d44f229dc3dee9d804.jpg",
+    "static/media/building-4884852.jpg": "/joshiattendance/static/media/building-4884852.94f0ad1c8192c862ba6b.jpg",
+    "static/media/beach-1751455.jpg": "/joshiattendance/static/media/beach-1751455.5f458084de73cc1ee3a2.jpg",
+    "static/media/hamcker.jpg": "/joshiattendance/static/media/hamcker.fe20cb0530f0b5197d89.jpg",
+    "static/media/naac3.jpg": "/joshiattendance/static/media/naac3.f2ae35fb9f54d6365a98.jpg",
+    "static/media/clg.avif": "/joshiattendance/static/media/clg.d3a67f9f5de79abda33c.avif",
+    "static/media/logo2.jpg": "/joshiattendance/static/media/logo2.9190b8e7e1f0fcf968db.jpg",
+    "static/media/logo.jpg": "/joshiattendance/static/media/logo.ddb252b92aad513ef276.jpg",
+    "index.html": "/joshiattendance/index.html",
+    "main.be128775.css.map": "/joshiattendance/static/css/main.be128775.css.map",
+    "main.6ee1a481.js.map": "/joshiattendance/static/js/main.6ee1a481.js.map",
+    "787.d06df960.chunk.js.map": "/joshiattendance/static/js/787.d06df960.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be128775.css",
+    "static/js/main.6ee1a481.js"
+  ]
+}
