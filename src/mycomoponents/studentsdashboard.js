@@ -8,7 +8,7 @@ export const Studentsdashboard = (props) => {
 
     const formData = new FormData(event.target); // Get the form data
 
-    fetch('/students-queries', {
+    fetch(`${process.env.REACT_APP_SERVER_URL}/students-queries`, {
       method: 'POST',
       body: JSON.stringify({ name: formData.get('name'), email: formData.get('email'), question:formData.get('question') , roll_no:formData.get('Roll_no') }),
       headers: {

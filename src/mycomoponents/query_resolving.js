@@ -13,7 +13,7 @@ export const Queryresolver = (props) => {
 };
 
 const handleSaveAttendance = () => {
-  fetch("/queriedattendancechange", {
+  fetch(`${process.env.REACT_APP_SERVER_URL}/queriedattendancechange`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json"

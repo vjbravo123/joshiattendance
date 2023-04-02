@@ -7,7 +7,7 @@ export const Signup = (props) => {
 
     const formData = new FormData(event.target); // Get the form data
 
-    fetch('/submit-form', {
+    fetch(`${process.env.REACT_APP_SERVER_URL}/submit-form`, {
       method: 'POST',
       body: JSON.stringify({ username: formData.get('username'), roll_no: formData.get('roll_no'), password: formData.get('password'), id: formData.get('id') }),
       headers: {

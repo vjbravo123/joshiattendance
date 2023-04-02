@@ -82,7 +82,7 @@ export const Attendancepage = () => {
   const handleDownload = async () => {
     console.log(present)
     setIsDownloading(true);
-    const response = await fetch('/attendance', {
+    const response = await fetch(`${process.env.REACT_APP_SERVER_URL}/attendance`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

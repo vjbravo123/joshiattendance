@@ -5,7 +5,7 @@ export const Teachers_dashboard = (props) => {
         props.setCurrentPage("attendance")
     }
     const handleclick2 =()=>{
-        fetch('/api/documents')
+        fetch(`${process.env.REACT_APP_SERVER_URL}/api/documents`)
         .then(response => response.json())
         .then(data => {
           // handle the response data

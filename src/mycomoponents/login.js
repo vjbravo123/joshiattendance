@@ -6,7 +6,7 @@ export const Loginpage = (props) => {
   const handleSubmit = (event) => {
     event.preventDefault(); // Prevent the form from reloading the page
     const formData = new FormData(event.target); // Get the form data
-    fetch('/login', {
+    fetch(`${process.env.REACT_APP_SERVER_URL}/login`, {
       method: 'POST',
       body: JSON.stringify({username: formData.get('username'), password: formData.get('password')}),
       headers: {

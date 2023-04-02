@@ -3,7 +3,7 @@ import { json } from "react-router-dom";
 import "../css/query.css"
 export const Querypage = (props) => {
   const handleResolveQuery = (roll_no) => {
-    fetch('/querydelete', {
+    fetch(`${process.env.REACT_APP_SERVER_URL}/querydelete`, {
       method: 'POST',
       body: JSON.stringify({ roll_no:roll_no}),
       headers: {
@@ -15,7 +15,7 @@ export const Querypage = (props) => {
   }
 
   const handleCheckAttendance = (rollNo) => {
-    fetch('/queryattendance', {
+    fetch(`${process.env.REACT_APP_SERVER_URL}/queryattendance`, {
       method: 'POST',
       body: JSON.stringify({ roll_no:rollNo}),
       headers: {
